@@ -36,6 +36,12 @@ public class Main {
         System.out.println("Operation task");
         calculate(5,6,Operation.PLUS);
 
+
+        System.out.println("How to retrieve the constant value");
+        System.out.println(Currency.DIME.getValue());
+        System.out.println(Currency.PENNY.getValue());
+        System.out.println(Currency.DIME.ordinal());
+
     }
     private static void calculate(double x, double y, Operation operation){
 
