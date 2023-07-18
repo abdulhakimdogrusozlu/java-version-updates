@@ -13,8 +13,8 @@ public class SwapValues {
 
     }
 
-    private static void swap(Integer[] a, int i, int j){
-        Integer temp = a[i];
+    private static <T> void swap(T[] a, int i, int j){
+        T temp = a[i];
         a[i] =  a[j];
         a[j] = temp;
     }
